@@ -1,6 +1,7 @@
 <?php
 // Set the URL to fetch
-$url = 'https://api.usd21.org/invites/manifest.json';
+// $url = 'https://api.usd21.org/invites/manifest.json';
+$url = '../manifest.json';
 
 // Initialize a cURL session
 $ch = curl_init($url);

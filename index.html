@@ -319,5 +319,12 @@
     <script src="js/sync.js"></script>
     <script src="js/global.js"></script>
     <script src="index.js"></script>
+    <!-- add service worker -->
+    <script>
+      if (typeof navigator.serviceWorker !== 'undefined') {
+        navigator.serviceWorker.register('sw.js')
+      }
+    </script>
+    
   </body>
 </html>
